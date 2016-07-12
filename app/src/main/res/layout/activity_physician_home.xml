@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".fe.activity.PhysicianHomeActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#7580f8"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_physician_home" />
+
+
+
+    <LinearLayout
+        android:id="@+id/main_toolbar_bottom"
+        android:minHeight="?android:attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/offWhite"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:theme="@style/AppTheme.PopupOverlay"
+        android:elevation="3dp"
+        >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp">
+            <ImageButton
+                android:id="@+id/item_new_referral"
+                android:background="@drawable/ic_action_new_referral_off"
+                android:contentDescription="@string/item_new_referral_txt"
+                android:onClick="newReferralClicked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="New Referral"-->
+                <!--android:layout_gravity="bottom"-->
+                <!--android:textAppearance="?android:attr/textAppearanceSmall" />-->
+        </FrameLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </View>
+
+        <ImageButton
+            android:id="@+id/item_incoming_referral"
+            android:background="@drawable/ic_action_incoming_referral_off"
+            android:contentDescription="@string/item_incoming_referral_txt"
+            android:onClick="incomingReferralClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </View>
+
+        <ImageButton
+            android:id="@+id/item_outgoing_referral"
+            android:background="@drawable/ic_action_outgoing_referral_off"
+            android:contentDescription="@string/item_outgoing_referral_txt"
+            android:onClick="outgoingReferralClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </View>
+
+        <ImageButton
+            android:id="@+id/item_analytics"
+            android:background="@drawable/ic_action_analytics_off"
+            android:contentDescription="@string/analytics"
+            android:onClick="analyticsClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        </LinearLayout>
+
+    <!--android:background="?attr/colorPrimary"-->
+</LinearLayout>

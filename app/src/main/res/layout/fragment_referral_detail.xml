@@ -1,0 +1,210 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context="gpr.com.gprapplication.fe.activity.fragment.ReferralDetailFragment">
+
+    <TextView
+        android:id="@+id/seperator1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/physicianPicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/referralInfoTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/physicianPicture"
+                android:layout_weight="1.0"
+                android:inputType="textMultiLine"
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/statusIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/chat_icon" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/statusLayout">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Satus:"
+                android:id="@+id/statusLabel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Status:"
+                android:id="@+id/statusText"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:id="@+id/statusPicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/referralActionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp">
+                <ImageButton
+                    android:id="@+id/referral_reject_button"
+                    android:background="@drawable/referral_rejected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+
+                    />
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="New Referral"-->
+                <!--android:layout_gravity="bottom"-->
+                <!--android:textAppearance="?android:attr/textAppearanceSmall" />-->
+            </FrameLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </View>
+
+            <ImageButton
+                android:id="@+id/referral_forward_button"
+                android:background="@drawable/referral_forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </View>
+
+            <ImageButton
+                android:id="@+id/referral_accept_button"
+                android:background="@drawable/referral_accepted"
+                android:title="@string/item_outgoing_referral_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" >
+            </View>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/seperator"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+
+        >
+
+
+        <TextView
+            android:id="@+id/patientInfoLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="textMultiLine"
+            android:text="@string/patientInfoLabel"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/patientNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/patientNameLabel"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/patientNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="textMultiLine"
+            android:text="test"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/patientReasonLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/patientReasonLabel"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+
+            />
+
+        <TextView
+            android:id="@+id/patientReasonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:inputType="textMultiLine"
+            android:text="test"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

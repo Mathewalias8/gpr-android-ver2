@@ -1,0 +1,62 @@
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".fe.activity.PhysicianHomeActivity"
+    >
+<item
+    android:id="@+id/item_filter"
+    android:orderInCategory="100"
+    android:icon="@drawable/filter"
+    android:title="@string/item_new_referral_txt"
+    app:showAsAction="always"
+    android:onClick="filterMenuClicked" >
+
+    <menu >
+        <item
+            android:id="@+id/item_status_default"
+            android:icon="@drawable/referral_default"
+            android:orderInCategory="100"
+            android:title="@string/item_status_default_txt"
+            app:showAsAction="always"
+            android:onClick="filterStatusClicked" />
+
+        <item
+            android:id="@+id/item_status_accepted"
+            android:icon="@drawable/referral_accepted"
+            android:orderInCategory="100"
+            android:title="@string/item_status_accepted_txt"
+            app:showAsAction="always"
+            android:onClick="filterStatusClicked" />
+
+        <item
+            android:id="@+id/item_status_bounced"
+            android:icon="@drawable/referral_bounced"
+            android:orderInCategory="100"
+            android:title="@string/item_referral_bounced_txt"
+            app:showAsAction="always"
+            android:onClick="filterStatusClicked"/>
+
+        <item
+            android:id="@+id/item_status_forwarded"
+            android:icon="@drawable/referral_forward"
+            android:orderInCategory="100"
+            android:title="@string/item_referral_forwarded_txt"
+            app:showAsAction="always"
+            android:onClick="filterStatusClicked"/>
+        <item
+            android:id="@+id/item_status_rejected"
+            android:icon="@drawable/referral_rejected"
+            android:orderInCategory="100"
+            android:title="@string/item_referral_rejected_txt"
+            app:showAsAction="always"
+            android:onClick="filterStatusClicked"/>
+    </menu>
+
+</item>
+
+
+
+
+</menu>

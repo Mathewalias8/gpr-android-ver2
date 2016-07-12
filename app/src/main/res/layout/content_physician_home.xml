@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/physicianHomeContainer"
+    android:orientation="vertical"
+    android:layout_weight="1.0">
+
+    <!--<fragment xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--xmlns:tools="http://schemas.android.com/tools"-->
+        <!--android:id="@+id/newReferralFragment"-->
+        <!--android:name="gpr.com.gprapplication.fe.activity.fragment.NewReferralFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+
+        <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+        <!--tools:layout="@layout/fragment_new_referral" />-->
+
+    <!--<fragment xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--xmlns:tools="http://schemas.android.com/tools"-->
+        <!--android:id="@+id/incomingReferralFragment"-->
+        <!--android:name="gpr.com.gprapplication.fe.activity.fragment.IncomingBaseReferralFragmentment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1.0"-->
+        <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+        <!--tools:layout="@layout/fragment_incoming_referral" />-->
+</LinearLayout>
+
+

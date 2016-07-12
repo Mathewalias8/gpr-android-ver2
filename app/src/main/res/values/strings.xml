@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">GPR Application</string>
+    <string name="title_activity_main">Referral</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_physician_home">Referral</string>
+    <string name="action_settings">Settings</string>
+    <string name="item_new_referral_txt">New Referral</string>
+    <string name="item_incoming_referral_txt">Incoming Referral</string>
+    <string name="item_outgoing_referral_txt">Outgoing Referral</string>
+    <string name="referring_to_label">Referring To:</string>
+    <string name="item_status_default_txt"></string>
+    <string name="item_status_accepted_txt"></string>
+    <string name="item_referral_bounced_txt"></string>
+    <string name="item_referral_forwarded_txt"></string>
+    <string name="item_referral_rejected_txt"></string>
+    <string name="title_activity_referral_detail">ReferralDetailActivity</string>
+    <string name="patientInfoLabel">Patient Info</string>
+    <string name="patientNameLabel">Name</string>
+    <string name="patientReasonLabel">Reason</string>
+    <string name="signInInfoString">Sign In using mobile number with country code or email address</string>
+    <string name="userNameString">Mobile Number or Email</string>
+    <string name="passwordString">Password</string>
+    <string name="signInStr">Sign in</string>
+    <string name="signUpStr">Sign up for GPR</string>
+    <string name="forgotPasswordString">Forgot Password?</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="login_progress_signing_in">Signing in...</string>
+    <string name="invalid_login">Invalid Login</string>
+    <string name="ok">OK</string>
+    <string name="newReferralSearchInfoLabel">Tap the physician name field above to do a search or do an advanced search using speciality. Click the information button for additional physician details.</string>
+    <string name="current_physician">Selected Physician</string>
+    <string name="physician_name">Physician Name</string>
+    <string name="analytics">Analytics</string>
+
+    <string name="title_activity_physician_basic_search">PhysicianBasicSearchActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="search_result_selection_hint">Tap to select or long press to view details</string>
+    <string name="physician_search_empty_label">Search physicians by name, email or mobile number</string>
+    <string name="physician_search_hint">Search</string>
+    <string name="title_activity_basic_physician_search"></string>
+    <string name="physician_search_title">Search for Physicians</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="load_more">Load More</string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+    <string name="title_activity_physician_detail">PhysicianDetailActivity</string>
+    <string name="doc_images">Doctor Image</string>
+    <string name="detail_blank" />
+    <string name="detail_status_message">Status</string>
+    <string name="detail_about_me">About Me</string>
+    <string name="detail_hospital_affiliation">Hospital affiliation</string>
+    <string name="detail_department">Department</string>
+    <string name="detail_title">Title</string>
+    <string name="insurance_accepted">Insurance Accepted</string>
+    <string name="appt_hotline">Appointment Hotline</string>
+    <string name="detail_speciality">Speciality</string>
+    <string name="detail_super_speciality">Super Speciality</string>
+    <string name="detail_medical_school_attended">Medical School Attended</string>
+    <string name="detail_graduation_year">Graduation Year</string>
+    <string name="detail_location">LOCATION</string>
+    <string name="detail_city">City</string>
+    <string name="detail_state">State</string>
+    <string name="detail_country">Country</string>
+    <string name="detail_postal_code">Postal Code</string>
+
+
+</resources>

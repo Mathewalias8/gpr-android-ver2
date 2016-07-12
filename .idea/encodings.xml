@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/fe/activity/fragment/NewReferralFragment.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/APIService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/AbstractRESTService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/AddFavoritePhysicianService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/BaseReferralListService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/CreateReferralService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/ForwardReferralService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/GetPhysicianDetailService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/IncomingReferralListService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/OutgoingReferralListService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/PhysicianListService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/RecentReferredPhysicianListService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/UpdateReferralStatusService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/asynctask/AddFavoritePhysicianServiceTask.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/asynctask/CreateReferralServiceTask.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/asynctask/ForwardReferralServiceTask.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/asynctask/GetPhyDetailServiceTask.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/asynctask/UpdateReferralStatusServiceTask.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/asynctask/UserLoginTask.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/callback/GPRException.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/callback/GenericCallback.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/datamodel/BaseModel.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/datamodel/CreateResponse.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/datamodel/FilterType.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/datamodel/PhyFilter.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/datamodel/Physician.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/datamodel/Referral.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/datamodel/ReferralType.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/datamodel/SimpleEnrollment.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/datamodel/Suggest.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/service/datamodel/User.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/utility/CommonUtils.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/utility/CredentialManager.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/utility/ExtractFromJsonServiceUtil.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/utility/GPRConstants.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/utility/GPRContext.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/utility/HttpClientUtil.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/gpr/com/gprapplication/utility/ImageUtilities.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/doctor_icon.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_search.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_search.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_search.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_action_search.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/back_blue.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/back_grey.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/back_grey_trasparent.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/back_red.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/physician_search_result_listitem.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/progressdialog.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/menu/physician_search.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/searchable.xml" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,126 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".LoginActivity">
+
+    <!-- Login progress -->
+
+    <LinearLayout
+        android:id="@+id/login_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/login_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/login_progress_signing_in"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/loginView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".fe.activity.SigninActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="48dp"
+            android:text="@string/signInInfoString"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+        <EditText
+            android:id="@+id/userIdText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="41dp"
+            android:hint="@string/userNameString"
+            android:text="16178517955"
+
+            />
+
+        <EditText
+            android:id="@+id/passwordText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/userIdText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/userIdText"
+            android:layout_below="@+id/userIdText"
+            android:ems="10"
+            android:hint="@string/passwordString"
+            android:inputType="textPassword"
+            android:text="wonder"
+          />
+
+        <Button
+            android:id="@+id/signInButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/passwordText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/passwordText"
+            android:layout_below="@+id/passwordText"
+            android:layout_marginTop="43dp"
+            android:onClick="signIn"
+            android:text="@string/signInStr" />
+
+        <TextView
+            android:id="@+id/signupLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signInButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:nestedScrollingEnabled="true"
+            android:text="@string/signUpStr"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/forgotpwdLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/signupLink"
+            android:layout_alignStart="@+id/signupLink"
+            android:layout_below="@+id/signupLink"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:text="@string/forgotPasswordString"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+</merge>

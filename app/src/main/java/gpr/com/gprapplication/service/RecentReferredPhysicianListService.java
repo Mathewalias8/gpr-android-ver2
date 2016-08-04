@@ -31,14 +31,14 @@ public class RecentReferredPhysicianListService extends AbstractRESTService {
 		List<SimpleEnrollment> listData = new ArrayList<SimpleEnrollment>();
 		try {
 			JSONObject userData = new JSONObject();
-//			userData.put("limit", strArgs[0]);
-//			userData.put("offset", offset);
+			userData.put("limit", strArgs[0]);
+			userData.put("offset", offset);
 			userData.put("requestId", reqeustId);
 			JSONObject jsonResponse = HttpClientUtil.sendHttpPost(
-					GPRConstants.API_URL + GPRConstants.GET_FAVORITE_URL, token,
+					GPRConstants.API_URL + GPRConstants.RECENT_URL, token,
 					userData);
 
-			JSONArray jsonArray = jsonResponse.getJSONArray("favorites");
+			JSONArray jsonArray = jsonResponse.getJSONArray("enrollments");
 			String imageBaseUrl = jsonResponse.getString("imageUrlPrefix");
 			for (int i = 0; i < jsonArray.length(); i++) {
 				JSONObject r = jsonArray.getJSONObject(i);
